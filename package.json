@@ -1,0 +1,45 @@
+{
+  "name": "sbtc-payment-sdk",
+  "version": "1.0.0",
+  "description": "Production-ready SDK for accepting sBTC and STX payments on the Stacks blockchain",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "stacks",
+    "bitcoin",
+    "sbtc",
+    "stx",
+    "payments",
+    "crypto",
+    "sdk",
+    "clarity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/investorphem/sbtc-payment-sdk"
+  },
+  "author": "Oluwafemi Olagoke",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/connect": "^3.0.0",
+    "@stacks/network": "^7.0.0",
+    "@stacks/transactions": "^7.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0",
+    "eslint": "^8.0.0"
+  }
+}
