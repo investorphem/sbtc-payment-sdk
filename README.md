@@ -9,7 +9,7 @@
 
 ---
 
-## 🚀 Overview
+## 🚀 Overvie
 
 `sbtc-payment-sdk` is a **production-ready TypeScript SDK** for accepting **sBTC (SIP-010)** and **STX payments** on the [Stacks](https://www.stacks.co/) blockchain.
 
