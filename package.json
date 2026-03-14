@@ -1,6 +1,6 @@
 {
   "name": "sbtc-payment-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Production-ready SDK for accepting sBTC and STX payments on the Stacks blockchain",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -44,6 +44,7 @@
   "devDependencies": {
     "typescript": "^5.3.0",
     "vitest": "^1.2.0",
+    "@vitest/coverage-v8": "^1.2.0",
     "eslint": "^8.0.0"
   }
 }
