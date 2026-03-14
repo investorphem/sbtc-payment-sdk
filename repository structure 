@@ -1,0 +1,24 @@
+sbtc-payment-sdk/
+│
+├── src/
+│   ├── index.ts             # SDK entry point
+│   ├── client.ts            # Client initialization & network config
+│   ├── invoices.ts          # Invoice management
+│   ├── payments.ts          # Payment helpers
+│   ├── wallet.ts            # Wallet connection helpers
+│   ├── types.ts             # TypeScript types
+│   └── utils.ts             # Utility functions
+│
+├── examples/
+│   └── nextjs-demo/         # Example Next.js project using SDK
+│
+├── tests/
+│   └── sdk.test.ts          # Basic SDK tests
+│
+├── dist/                    # Compiled TypeScript output
+│
+├── package.json
+├── tsconfig.json
+├── .npmignore
+├── README.md
+└── LICENSE
