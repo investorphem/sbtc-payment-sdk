@@ -32,9 +32,9 @@
   "author": "Oluwafemi Olagoke",
   "license": "MIT",
   "dependencies": {
-    "@stacks/connect": "^3.0.0",
-    "@stacks/network": "^7.0.0",
-    "@stacks/transactions": "^7.0.0",
+    "@stacks/connect": "^2.7.0",
+    "@stacks/network": "^7.4.0",
+    "@stacks/transactions": "^7.4.0",
     "axios": "^1.6.0"
   },
   "devDependencies": {
