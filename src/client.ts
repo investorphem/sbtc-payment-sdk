@@ -1,4 +1,4 @@
-import { StacksMainnet, StacksTestnet } from "@stacks/network"
+import { STACKS_MAINNET, STACKS_TESTNET, StacksNetwork } from "@stacks/network"
 
 export interface ClientConfig {
   network?: "mainnet" | "testnet"
@@ -7,15 +7,12 @@ export interface ClientConfig {
 }
 
 export class SBTCClient {
-  network
-  contractAddress
-  contractName
+  network: StacksNetwork
+  contractAddress: string
+  contractName: string
 
   constructor(config: ClientConfig) {
-    this.network =
-      config.network === "mainnet"
-        ? new StacksMainnet()
-        : new StacksTestnet()
+    this.network = config.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNET
     this.contractAddress = config.contractAddress
     this.contractName = config.contractName
   }
