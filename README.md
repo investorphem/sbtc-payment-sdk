@@ -28,7 +28,7 @@ It enables developers to:
 * **Invoice Management** — Create invoices, mark as paid
 * **Wallet Integration** — Works with Stacks-compatible wallets
 * Fully **TypeScript typed** for safety
-* **Unit Tested** with Vitest and code coverage
+* **Unit Tested** with Vitest and code coverag
 
 ---
 
