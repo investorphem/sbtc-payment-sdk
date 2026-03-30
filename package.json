@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc -w",
+    "dev": "tsc -w"
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "lint": "eslint src --ext .ts",
