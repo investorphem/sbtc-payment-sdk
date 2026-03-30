@@ -13,7 +13,7 @@
     "dev": "tsc -w"
     "test": "vitest",
     "test:coverage": "vitest --coverage",
-    "lint": "eslint src --ext .ts",
+    "lint": "eslint src --ext .ts"
     "prepublishOnly": "npm run build"
   },
   "keywords": [
