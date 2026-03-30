@@ -1,7 +1,7 @@
 {
   "name": "sbtc-payment-sdk",
   "version": "1.0.9",
-  "description": "Production-ready SDK for accepting sBTCan STtks blockchain",
+  "description": "Production-ready SDK for accepting sBTCan Stks blockchain",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
