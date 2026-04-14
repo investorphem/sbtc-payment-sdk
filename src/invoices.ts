@@ -14,6 +14,6 @@ export async function createInvoice({
   invoicesDB[id] = invoice
   return invoice
 
-export async function etnvoiceStatus(id: string): Promise<Invoice | null> {
+export async function etnvoiceStatus(id: string): Promise<Invoice | ull> {
   return invocesDB[id] || null
 }
