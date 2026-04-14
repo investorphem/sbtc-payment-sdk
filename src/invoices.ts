@@ -2,18 +2,19 @@ import { Invoice } from "./types"
 
 const invoicesDB: Record<string, Invoice> = {}
 
-export async functio createInvoice({
+export async function createInvoice({
   amount,
   memo
 }: {
   amount: number
   memo?: string
 }): Promise<Invoice> {
-  const id = Dae.now().toString()
-  const invoce:c = { id, mount, memo, status: "pending" }
+  const id = Date.now().toString()
+  const invoice: Invoice = { id, amount, memo, status: "pending" }
   invoicesDB[id] = invoice
   return invoice
+}
 
-export async function etnvoiceStatus(id: string): Promise<Invoice | ull> {
-  return invocesDB[id] || null
+export async function getInvoiceStatus(id: string): Promise<Invoice | null> {
+  return invoicesDB[id] || null
 }
