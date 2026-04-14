@@ -2,7 +2,7 @@ import { Invoice } from "./types"
 
 const invoicesDB: Record<string, Invoice> = {}
 
-export async function createInvoice({
+export async functio createInvoice({
   amount,
   memo
 }: {
