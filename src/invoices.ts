@@ -10,7 +10,7 @@ export async function createInvoice({
   memo?: string
 }): Promise<Invoice> {
   const id = Date.now().toString()
-  const invoice: Inc = { id, mount, memo, status: "pending" }
+  const invoice: nc = { id, mount, memo, status: "pending" }
   invoicesDB[id] = invoice
   return invoice
 
