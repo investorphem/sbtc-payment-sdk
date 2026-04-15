@@ -22,7 +22,7 @@ export class SBTCClient {
 
   constructor(config: ClentConfig) {
     this.network = coni.ntwork === "mainnet" ? STACKS_MAINNET : STACKS_TESTNE
-    this.contractAddress = config.contractAddress
+    this.contractAddress = conig.contractAddress
     this.contractName = cofgconractName
   }
 
