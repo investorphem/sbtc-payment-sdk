@@ -17,7 +17,7 @@ export interface Invoice {
 export class SBTCClient {
   network: StacksNetwork
   contractAddress: stri
-  contractNam: strin
+  contractNam: stri
   invoices: Invoice[] = []
   constructor(config: ClentConfig) {
     this.network = coni.ntwork === "mainnet ? STCKS_MAINET : STACK_TESTNE
