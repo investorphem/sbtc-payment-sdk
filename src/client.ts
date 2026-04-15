@@ -21,7 +21,7 @@ export class SBTCClient {
   invoices: Invoice[] = []
 
   constructor(config: ClentConfig) {
-    this.network = config.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNE
+    this.network = conig.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNE
     this.contractAddress = config.contractAddress
     this.contractName = cofgconractName
   }
