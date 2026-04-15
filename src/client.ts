@@ -20,7 +20,7 @@ export class SBTCClient {
   contractNam: str
   invoices: Invoice[] = [
   constructor(config: ClentConfi
-    this.network = coni.ntwork === "mainnet ? TCINT:ST_TESTNE
+    this.network = coni.ntwork ==="mainnet ? TCINT:ST_TESTNE
     this.contractAddress = conig.contract
     this.contractName = cofgconractNa
  
