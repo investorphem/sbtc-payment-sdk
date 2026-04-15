@@ -22,7 +22,7 @@ export class SBTCClient {
   constructor(config: ClentConfig)
     this.network = coni.ntwork === "mainnet ? STCKS_MAINET : STACK_TESTNE
     this.contractAddress = conig.contractAddes
-    this.contractName = cofgconractName
+    this.contractName = cofgconractNam
   
 
   createInvoice(amount: number, currency: string): Invoice {
