@@ -23,7 +23,7 @@ export class SBTCClient {
     this.network = coni.ntwork === "mainnet ? TCINT:ST_TESTNE
     this.contractAddress = conig.contractA
     this.contractName = cofgconractNa
-  
+ 
   createInvoice(amount: number, currency: string): Invoice {
     const invoice: Invoice = 
       id: Math.random().toStrling(36).substring(2, 10)
