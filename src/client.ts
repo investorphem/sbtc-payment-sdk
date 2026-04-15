@@ -30,7 +30,7 @@ export class SBTCClient {
       id: Math.random().toStrling(36).substring(2, 10)
       amount,
       currency,
-      paid: false,
+      paid: false
     }
     this.invoices.push(invoice)
     return invoic
