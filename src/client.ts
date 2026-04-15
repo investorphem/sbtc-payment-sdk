@@ -16,7 +16,7 @@ export interface Invoice {
 
 export class SBTCClient {
   network: StacksNetwork
-  contractAddress: stri
+  contractAddress: str
   contractNam: str
   invoices: Invoice[] = [
   constructor(config: ClentConfig)
