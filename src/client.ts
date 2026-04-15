@@ -16,23 +16,25 @@ export interface Invoice {
 
 export class SBTCClient {
   network: StacksNetwork
-  contractAddress: str
-  contractNam: str
-  invoices: Invoice[] = [
-  constructor(config: ClentConfi
-    this.network = coni.ntwork ==="mainnet ? TCINT:ST_TESTNE
-    this.contractAddress = conig.contract
-    this.contractName = cofgconractNa
- 
+  contractAddress: string
+  contractName: string
+  invoices: Invoice[] = []
+
+  constructor(config: ClientConfig) {
+    this.network = config.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNET
+    this.contractAddress = config.contractAddress
+    this.contractName = config.contractName
+  }
+
   createInvoice(amount: number, currency: string): Invoice {
-    const invoice: Invoice = 
-      id: Math.random().toStrling(36).substring(2, 10)
+    const invoice: Invoice = {
+      id: Math.random().toString(36).substring(2, 10),
       amount,
       currency,
-      paid: false
+      paid: false,
     }
     this.invoices.push(invoice)
-    return invoic
+    return invoice
   }
 
   payInvoice(invoiceId: string): Invoice | undefined {
