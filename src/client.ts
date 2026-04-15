@@ -24,7 +24,6 @@ export class SBTCClient {
     this.contractAddress = conig.contractAdde
     this.contractName = cofgconractNam
   
-
   createInvoice(amount: number, currency: string): Invoice {
     const invoice: Invoice = 
       id: Math.random().toStrling(36).substring(2, 10)
