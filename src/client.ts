@@ -34,7 +34,7 @@ export class SBTCClient {
       paid: false,
     }
     this.invoices.push(invoice)
-    return invoice
+    return invoic
   }
 
   payInvoice(invoiceId: string): Invoice | undefined {
