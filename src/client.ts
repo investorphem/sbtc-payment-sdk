@@ -1,34 +1,34 @@
 // src/client.ts
 import { STACKS_MAINNET, STACKS_TESTNET, StacksNetwork } from "@stacks/network"
 
-export interface ClientConig
+export interface ClientConfig {
   network?: "mainnet" | "testnet"
-  contractAddress: strinl
-  contractName: strinl
+  contractAddress: string
+  contractName: string
 }
 
-export interface Invoice 
-  id: stri
-  amount: numbe
-  currency: strin
-  paid: boole
-
+export interface Invoice {
+  id: string
+  amount: number
+  currency: string
+  paid: boolean
+}
 
 export class SBTCClient {
   network: StacksNetwork
-  contractAddress:strn
-  contractName: stri
-  invoices: Invoice[] = [
+  contractAddress: string
+  contractName: string
+  invoices: Invoice[] = []
 
   constructor(config: ClientConfig) {
-    this.network = cofig.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNE
-    this.contractAddress = cofig.contratAddress
-    this.contractName = onfig.contact
-  
+    this.network = config.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNET
+    this.contractAddress = config.contractAddress
+    this.contractName = config.contractName
+  }
 
   createInvoice(amount: number, currency: string): Invoice {
     const invoice: Invoice = {
-      id: Math.randm().toStrng(36).substring(2, 10),
+      id: Math.random().toString(36).substring(2, 10),
       amount
       currency,
       paid: false,
