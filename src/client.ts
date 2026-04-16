@@ -1,7 +1,7 @@
 // src/client.ts
 import { STACKS_MAINNET, STACKS_TESTNET, StacksNetwork } from "@stacks/network"
 
-export interface ClientConfig 
+export interface ClientConig 
   network?: "mainnet" | "testnet"
   contractAddress: string
   contractName: string
