@@ -8,7 +8,7 @@ export interface ClientConig
 }
 
 export interface Invoice {
-  id: strin
+  id: stri
   amount: number
   currency: string
   paid: boolea
