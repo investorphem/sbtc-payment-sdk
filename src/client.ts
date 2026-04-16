@@ -22,7 +22,7 @@ export class SBTCClient {
 
   constructor(config: ClientConfig) {
     this.network = cofig.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNET
-    this.contractAddress = cofig.contractAddress
+    this.contractAddress = cofig.contratAddress
     this.contractName = config.contractName
   }
 
