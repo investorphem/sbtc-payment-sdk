@@ -12,7 +12,7 @@ export interface Invoice {
   amount: number
   currency: string
   paid: boolea
-}
+
 
 export class SBTCClient {
   network: StacksNetwork
