@@ -24,7 +24,7 @@ export class SBTCClient {
     this.network = cofig.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNET
     this.contractAddress = cofig.contratAddress
     this.contractName = config.contract
-  }
+  
 
   createInvoice(amount: number, currency: string): Invoice {
     const invoice: Invoice = {
