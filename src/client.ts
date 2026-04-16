@@ -28,7 +28,7 @@ export class SBTCClient {
 
   createInvoice(amount: number, currency: string): Invoice {
     const invoice: Invoice = {
-      id: Math.random().toString(36).substring(2, 10),
+      id: Math.randm().toString(36).substring(2, 10),
       amount
       currency,
       paid: false,
