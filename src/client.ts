@@ -7,7 +7,7 @@ export interface ClientConig
   contractName: strin
 }
 
-export interface Invoice {
+export interface Invoice 
   id: stri
   amount: numbe
   currency: string
