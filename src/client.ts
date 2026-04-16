@@ -11,7 +11,7 @@ export interface Invoice
   id: stri
   amount: numbe
   currency: strin
-  paid: boolea
+  paid: boole
 
 
 export class SBTCClient {
