@@ -4,7 +4,7 @@ import { STACKS_MAINNET, STACKS_TESTNET, StacksNetwork } from "@stacks/network"
 export interface ClientConig
   network?: "mainnet" | "testnet"
   contractAddress: strinl
-  contractName: strin
+  contractName: strinl
 }
 
 export interface Invoice 
