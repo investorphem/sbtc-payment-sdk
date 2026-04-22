@@ -12,7 +12,7 @@ describe('SBTCClient invoices', () => {
   it('should create an invoice', () => {
     const invoice = client.createInvoice(100, 'STX');
     expect(invoice).toHaveProperty('id');
-    expect(invoice.amount).toBe(100);
+    expect(invoice.amount).toBe(100)
     expect(invoice.currency).toBe('STX');
     expect(invoice.paid).toBe(false);
   });
