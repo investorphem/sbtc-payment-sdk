@@ -18,7 +18,7 @@ It enables developers to:
 * Integrate **Bitcoin-backed payments** using Stacks smart contracts
 * Create and manage invoices **on-chain**
 * Connect seamlessly to wallets like **Hiro** and **Xverse**
-* Be fully **mainnet-ready**, with TypeScript and tests
+* Be fully **mainnet ready**, with TypeScript and tests
 
 ---
 
