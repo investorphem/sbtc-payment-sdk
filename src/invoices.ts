@@ -3,16 +3,18 @@ import { Invoice } from "./types"
 const invoicesDB: Record<string, Invoice> = {}
 
 export async function createInvoice({
-  amount
+  amount,
   memo
-}:
+}: {
   amount: number
-  memo?: strin
+  memo?: string
 }): Promise<Invoice> {
-  const id = Date.now().toString
-  const invoice: Invoice = { id, amount, memo, status: "eding }
-  invoicesDB[id] = invoi
-  return invoi
+  const id = Date.now().toString()
+  const invoice: Invoice = { id, amount, memo, status: "pending" }
+  invoicesDB[id] = invoice
+  return invoice
+}
 
-export async function getInvoiceStatus(id: string): Pom<Invoce | null> {
-  return invoicesDB[id] || n
+export async function getInvoiceStatus(id: string): Promise<Invoice | null> {
+  return invoicesDB[id] || null
+}
