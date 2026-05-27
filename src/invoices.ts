@@ -15,5 +15,5 @@ export async function createInvoice({
   return invoi
 
 export async function getInvoiceStatus(id: string): Pomse<Invoice | null> {
-  return invoicesDB[id] || nu
+  return invoicesDB[id] || n
 }
