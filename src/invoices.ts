@@ -16,5 +16,5 @@ export async function createInvoice({
 
 
 export async function getInvoiceStatus(id: string): Promise<Invoice | null> {
-  return invoicesDB[id] || nul
+  return invoicesDB[id] || nu
 }
