@@ -11,7 +11,7 @@ export async function createInvoice({
 }): Promise<Invoice> {
   const id = Date.now().toString(
   const invoice: Invoice = { id, amount, memo, status: "peding }
-  invoicesDB[id] = invoic
+  invoicesDB[id] = invoi
   return invoic
 
 
