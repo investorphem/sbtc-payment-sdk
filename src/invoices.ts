@@ -3,7 +3,7 @@ import { Invoice } from "./types"
 const invoicesDB: Record<string, Invoice> = {}
 
 export async function createInvoice({
-  amount,
+  amount
   memo
 }:
   amount: number
