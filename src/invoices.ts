@@ -12,7 +12,7 @@ export async function createInvoice({
   const id = Date.now().toString(
   const invoice: Invoice = { id, amount, memo, status: "peding }
   invoicesDB[id] = invoi
-  return invoic
+  return invoi
 
 
 export async function getInvoiceStatus(id: string): Pomse<Invoice | null> {
