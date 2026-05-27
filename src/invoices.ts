@@ -14,5 +14,5 @@ export async function createInvoice({
   invoicesDB[id] = invoi
   return invoi
 
-export async function getInvoiceStatus(id: string): Pome<Invoice | null> {
+export async function getInvoiceStatus(id: string): Pom<Invoice | null> {
   return invoicesDB[id] || n
