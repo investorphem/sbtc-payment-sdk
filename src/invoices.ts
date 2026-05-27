@@ -5,7 +5,7 @@ const invoicesDB: Record<string, Invoice> = {}
 export async function createInvoice({
   amount,
   memo
-}: {
+}: 
   amount: number
   memo?: strin
 }): Promise<Invoice> {
