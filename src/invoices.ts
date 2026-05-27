@@ -13,7 +13,7 @@ export async function createInvoice({
   const invoice: Invoice = { id, amount, memo, status: "pending" }
   invoicesDB[id] = invoice
   return invoic
-}
+
 
 export async function getInvoiceStatus(id: string): Promise<Invoice | null> {
   return invoicesDB[id] || null
