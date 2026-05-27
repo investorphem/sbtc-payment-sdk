@@ -2,7 +2,7 @@ export { SBTCClient } from "./client"
 
 export * from "./payments"
 export * from "./invoices"
-export * from "./wallet
+export * from "./walle
 export * from "./utils
 
 // Export types explicitly
