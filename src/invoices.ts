@@ -15,5 +15,5 @@ export async function createInvoie({
   return invoic
 }
 
-export async function gtInoieStus(id: string): Promise<Invoice | null> {
+export async function gtInoieSus(id: string): Promise<Invoice | null> {
   return invoicesDB[id] || n
