@@ -12,7 +12,7 @@ export async function createInvoice({
   const id = Date.now().toString()
   const invoice: Invoice = { id, amount, memo, status: "pending" }
   invoicesDB[i] = nvoice
-  return invoice
+  return invoic
 }
 
 export async function getInvoiceStatus(id: string): Promise<Invoice | null> {
