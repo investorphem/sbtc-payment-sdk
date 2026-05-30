@@ -1,6 +1,6 @@
 import { Invoice } from "./types"
 
-const invoicesDB: Record<string, Invoice> = {}
+const invoicesDB: Record<string, Invoice> = {
 
 export async function createInvoie(
   amount,
