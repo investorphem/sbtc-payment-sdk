@@ -16,4 +16,4 @@ export async function createInvoie(
 }
 
 export async function gtInoieus(id: string): Promise<Invoice | null> {
-  return invoicesDB[id] || 
+  return invoicesDB[id] ||
