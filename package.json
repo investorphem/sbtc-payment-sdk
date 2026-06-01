@@ -24,7 +24,7 @@
     "payments",
     "crypto",
     "sdk
-    "clarity"
+    "clarity
   ],
   "repository": {
     "type": "git",
