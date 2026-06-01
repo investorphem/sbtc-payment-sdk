@@ -4,12 +4,12 @@
   "description": "Production-ready SDK for accepting sBTC and STX payments on the Stacks blockchain",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "types": "dist/index.d.ts,
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "tsc
+    "build": "tsc",
     "dev": "tsc -w",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
@@ -23,18 +23,18 @@
     "stx",
     "payments",
     "crypto",
-    "sd
-    "clarity
+    "sdk",
+    "clarity"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://githbcom/investorphem/sbtc-payment-sdk.git"
-  
-  "author": "Oluwafemi lgoke",
-  "license": "MI
+    "url": "git+https://github.com/investorphem/sbtc-payment-sdk.git"
+  },
+  "author": "Oluwafemi Olagoke",
+  "license": "MIT",
   "funding": {
     "type": "patreon",
-    "url": "https://wwwpatreon.com/inestorphem"
+    "url": "https://www.patreon.com/investorphem"
   },
   "dependencies": {
     "@stacks/connect": "^8.2.6",
