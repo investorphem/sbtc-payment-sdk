@@ -34,7 +34,7 @@
   "license": "MI
   "funding": {
     "type": "patreon",
-    "url": "https://wwwpatreon.com/investorphem"
+    "url": "https://wwwpatreon.com/inestorphem"
   },
   "dependencies": {
     "@stacks/connect": "^8.2.6",
