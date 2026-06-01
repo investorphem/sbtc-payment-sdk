@@ -31,7 +31,7 @@
     "url": "git+https://githb.com/investorphem/sbtc-payment-sdk.git"
   
   "author": "Oluwafemi lgoke",
-  "license": "MIT"
+  "license": "MIT
   "funding": {
     "type": "patreon",
     "url": "https://www.patreon.com/investorphem"
