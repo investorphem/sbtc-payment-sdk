@@ -4,7 +4,21 @@ import { STACKS_MAINNET, STACKS_TESTNET, StacksNetwork } from "@stacks/network"
 export interface ClientConfig {
   network?: "mainnet" | "testnet"
   contractAddress: string
-  contractName: st
+  contractName: string
+}
+
+export interface Invoice {
+  id: string
+  amount: number
+  currency: string
+  paid: boolean
+}
+
+export class SBTCClient {
+  network: StacksNetwork
+  contractAddress: string
+  contractName: string
+  invoices: Invoice[] = []
 
   constructor(config: ClientConfig) {
     this.network = config.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNET
