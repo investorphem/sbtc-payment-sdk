@@ -14,12 +14,6 @@ export interface Invoice {
   paid: boolean
 }
 
-export class SBTCClient {
-  network: StacksNetwork
-  contractAddress: string
-  contractName: string
-  invoices: Invoice[] = []
-
   constructor(config: ClientConfig) {
     this.network = config.network === "mainnet" ? STACKS_MAINNET : STACKS_TESTNET
     this.contractAddress = config.contractAddress
